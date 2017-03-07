@@ -3,8 +3,8 @@ export default class Calculator {
 
   }
   add(...numbers) {
-    return numbers.reduce((prevVal, currVal) => {
-      return prevVal + currVal;
+    return numbers.reduce((prev, curr) => {
+      return prev + curr;
     },0)
   }
   introspect(){
